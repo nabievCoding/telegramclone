@@ -56,11 +56,17 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 1);
     position: absolute;
 }
 .signIn input,.signIn button{
     font-size: 14px;
     padding: 1% 3%;
+}
+@media screen and (max-width:900) {
+
+    .msg,.sendDiv{
+          width: 100%;
+    }
 }
