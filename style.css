@@ -34,9 +34,33 @@ body{
     background-color:rgb(130, 219, 78);
     margin-left: auto;
 }
+.sendDiv{
+    width: 100%;
+    height: 5vh;
+    margin-top: 30px;
+}
+.sendDiv #txtid{
+    width: 90%;
+    padding: 1% 10%;
+    font-size: 14px;
+}
+.sendDiv .btn{
+    width: 8%;
+    padding: 1% 2%;
+    font-size: 14px;
+}
 .signIn{
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 1);
     position: absolute;
+}
+.signIn input,.signIn button{
+    font-size: 14px;
+    padding: 1% 3%;
 }
